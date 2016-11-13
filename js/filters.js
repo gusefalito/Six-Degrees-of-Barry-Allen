@@ -34,7 +34,7 @@ function makeCategoryTag(category){
 	categoryCheckboxes.set(category,{"category":checkbox,"media":[]})
 	var text = document.createTextNode(category);
 	
-	filters.insertBefore(element,stanOptions);
+	filters.appendChild(element);
 	element.appendChild(header);
 	header.appendChild(label);
 	label.appendChild(checkbox);
