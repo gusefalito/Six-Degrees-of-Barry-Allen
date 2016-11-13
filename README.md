@@ -1,5 +1,5 @@
-# Six Degrees of Agent Coulson
-A site where "6 degrees of kevin bacon" style connection chains can be worked out for different characters in the Marvel Cinematic Universe.
+# Six Degrees of Barry Allen
+A site where "6 degrees of kevin bacon" style connection chains can be worked out for different characters in the Arrowverse
 
-Live site: https://aclay.github.io/Six-Degrees-of-Agent-Coulson/  
-Discussion: www.reddit.com/r/SixDegreesOfCoulson
+Live site: https://aclay.github.io/Six-Degrees-of-Barry-Allen/  
+Discussion: www.reddit.com/r/6DegreesOfAllen
