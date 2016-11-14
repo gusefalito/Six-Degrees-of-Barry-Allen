@@ -15,14 +15,17 @@ for (dirpath, dirnames, filenames) in walk("./interactions"):
             characters = set()
             interactions = []
             for line in open(filename):
-                parts = line.strip().split('|',2)
-                characters.add(parts[0])
-                characters.add(parts[1])
-                interaction = {}
-                interaction['p1'] = parts[0]
-                interaction['p2'] = parts[1]
-                interaction['desc'] = parts[2]
-                interactions.append(interaction)
+                try:
+                    parts = line.strip().split('|',2)
+                    characters.add(parts[0])
+                    characters.add(parts[1])
+                    interaction = {}
+                    interaction['p1'] = parts[0]
+                    interaction['p2'] = parts[1]
+                    interaction['desc'] = parts[2]
+                    interactions.append(interaction)
+                except:
+                
             output = {}
             characters = sorted(characters)
             category = path.basename(dirpath)
